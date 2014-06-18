@@ -1,3 +1,7 @@
+**This pattern introduces more complexity and issues then it solves. Use Nette events with [rixxi/redirector](https://github.com/rixxi/redirector) instead, it is more robust and simpler solution then custom event classes.**
+
+# Discontinued support - You can use it, but you have been warned.
+
 KISS pattern for solving most of the onEvent problems using basket with some code (IEvent).
 
 Solves $presenter->redirect([$code, ], $destination[, $arguments]) for you in civilized manner
